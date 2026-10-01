@@ -6,8 +6,9 @@ import dev.victoria.repository.Budget;
 import java.util.Scanner;
 
 public class ConsoleHandler {
+    private static final Scanner scanner = new Scanner(System.in);
+
     public static void run() {
-        Scanner scanner = new Scanner(System.in);
         Budget budget = new Budget(0, 0);
 
         ConsoleMenu.start();
@@ -63,5 +64,7 @@ public class ConsoleHandler {
                 }
             }
         }
+
+        scanner.close();
     }
 }
