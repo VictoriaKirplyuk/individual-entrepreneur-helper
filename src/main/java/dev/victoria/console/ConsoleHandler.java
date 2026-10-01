@@ -1,7 +1,7 @@
 package dev.victoria.console;
 
 import dev.victoria.controller.TaxController;
-import dev.victoria.dto.Budget;
+import dev.victoria.repository.Budget;
 
 import java.util.Scanner;
 

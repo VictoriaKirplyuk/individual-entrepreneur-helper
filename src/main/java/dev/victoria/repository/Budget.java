@@ -1,4 +1,4 @@
-package dev.victoria.dto;
+package dev.victoria.repository;
 
 public class Budget {
     private int income;
